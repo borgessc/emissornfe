@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
+<<<<<<< HEAD
   root to: "home#index"
+=======
+  root to: 'home#index'
+>>>>>>> master
   get 'user/index'
 
   get 'home/index'
